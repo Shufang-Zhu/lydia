@@ -96,7 +96,9 @@ void dfa_to_graphviz(const abstract_dfa& automaton,
   agclose(g);
   gvFreeContext(gvc);
 }
-*/
+
+  */
+
 void dumpdot(const CUDD::Cudd& mgr, const CUDD::BDD& b,
              const std::vector<const char*>& inames,
              const std::string& filename) {
